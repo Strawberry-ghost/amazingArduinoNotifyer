@@ -1,4 +1,6 @@
 #include <LiquidCrystal.h>
+//This program uses a dely to set a medication alarm. When the alarm goes off LEDs blink, a buzzer buzzes, 
+//and a message shows up on the liquid crystal screen
 int ledPin = 13;              // LED connected to digital pin 13
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 bool i = 0;
